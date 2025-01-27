@@ -13,7 +13,7 @@ dash.register_page(__name__,
                    title="Home",
                    path='/')
 
-homeImage = dash.html.Img(src="assets/homeLogo.pnggit add",
+homeImage = dash.html.Img(src="assets/homeLogo.png",
                           width=550,)
 
 
