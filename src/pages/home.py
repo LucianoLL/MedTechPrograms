@@ -34,9 +34,9 @@ homeTabs = dbc.Tabs(children=[
 
 homeRow = dbc.Row(children=[
     dbc.Col(children=[homeTabs],
-            width=6),
+            lg=5),
     dbc.Col(children=[homeImage],
-            width={"offset":1})],
+            width={"offset":2})],
     style={"margin":"auto",
            "margin-bottom":25,
            "margin-top":25})

@@ -57,7 +57,7 @@ aboutText = dash.html.P(children=[
     and realizing that there were very few programs that combined health, medicine, and 
     engineering. Yet, at the same time also realizing that there was a variety of majors
     and programs within medicine that allowed for engineering in their research.
-    Thus the search began for collecting information on programs that allowed for
+    Thus, the search began for collecting information on programs that allowed for
     medicine and engineering, checking several university websites, scouring various
     major catalogues, information that's publicly accessible to anyone online.
     The only issue with a Google spreadsheet is that it's not as easy to
