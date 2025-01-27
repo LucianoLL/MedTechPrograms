@@ -53,14 +53,14 @@ aboutText = dash.html.P(children=[
     """
     and realizing that there were very few programs that combined health, medicine, and 
     engineering. Yet, at the same time also realizing that there was a variety of majors
-    and programs within medicine that allowed room for engineering in their research.
+    and programs within medicine that allowed for engineering in their research.
     Thus the search began for collecting information on programs that allowed for
     medicine and engineering, through that research is also how the term
     """,
     dash.html.B(children=" medtech "),
     """
     came to light. The only issue with a Google spreadsheet is that it's not as easy to
-    share with the general public, which is also why this site was created.
+    share with the general public, which is why this site was created.
     """],
     style={"margin-left": 15,
            "margin-right": 15})

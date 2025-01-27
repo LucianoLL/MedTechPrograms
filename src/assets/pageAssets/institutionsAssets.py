@@ -24,7 +24,7 @@ text01 = dbc.Row(children=[
         dash.html.P(children=["""All institutions are organized by their offered""",
                               dash.html.B(children=[" MedTech "]),
                               """
-                              programs. Clicking on each institute will display
+                              programs. Clicking on each institution will display
                               a table of programs offered at that institution.
                               """],
                     style={"margin-right":250,

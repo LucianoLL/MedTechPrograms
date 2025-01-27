@@ -1,69 +1,24 @@
-Program,Institution,Covered Fields,Degree Type(s),Application Open,Application Deadline,Program Website
-Bioengineering,"University of California, Los Angeles","Engineering
-Life Science
-Physical Science","Master of Science (MS)
-Doctor of Philosophy (PhD)",N/A,CLOSE,https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/bioengineering/
-Bioengineering,Stanford University,"Biology
-Engineering
-Health Science","Master of Science (MS)
-Doctor of Philosophy (PhD)",N/A,CLOSED,https://bioengineering.stanford.edu/academics-admission
-Bioinformatics,"University of California, Los Angeles","Biology
-Computer Science
-Mathematics
-Statistics","Master of Science (MS)
-Doctor of Philosophy (PhD)",N/A,"April 16th, 2025 (MS)
-CLOSED (PhD)",https://grad.ucla.edu/programs/life-sciences/bioinformatics-department/bioinformatics/
-Biomedical Data Science,Stanford University,"Computer Science
-Genetics
-Statistics","Master of Science (MS)
-Doctor of Philosophy (PhD)",N/A,CLOSED,https://dbds.stanford.edu/for-prospective-students/
-Biomedical Engineering,"University of California, Davis","Engineering
-Medicine
-Translational Medicine","Master of Science (MS)
-Doctor of Philosophy (PhD)",N/A,CLOSED,https://www.ucdavis.edu/graduate-programs/biomedical-engineering
-Biomedical Physics,Stanford University,"Biostatistics
-Chemistry
-Imaging Science
-Medical Physics
-Molecular Biology",Doctor of Philosophy (PhD),N/A,CLOSED,https://med.stanford.edu/bmp/prospective-students.html
-Biomolecular Engineering & Bioinformatics,"University of California, Santa Cruz","Biology
-Computer Science
-Statisitics","Master of Science (MS)
-Doctor of Philosophy (PhD)","October 1st, 2024","January 9, 2025 (MS)
-CLOSED (PhD)","(MS)
-https://www.gradadmissions.ucsc.edu/bmeb-ms 
-
-(PhD)
-https://www.gradadmissions.ucsc.edu/bmeb-pbse 
+Program,Institution,Covered Fields,Degree Type(s),Open Status,Application Deadline,Program Website
+Bioengineering,Stanford University,"Biology, Engineering, Health Science",Master of Science (MS),CLOSED,CLOSED,https://bioengineering.stanford.edu/academics-admission
+Bioengineering,Stanford University,"Biology, Engineering, Health Science",Doctor of Philosophy (PhD),CLOSED,CLOSED,https://bioengineering.stanford.edu/academics-admission
+Biomedical Data Science,Stanford University,"Computer Science, Genetics, Statistics",Master of Science (MS),CLOSED,CLOSED,https://dbds.stanford.edu/for-prospective-students/
+Biomedical Data Science,Stanford University,"Computer Science, Genetics, Statistics",Doctor of Philosophy (PhD),CLOSED,CLOSED,https://dbds.stanford.edu/for-prospective-students/
+Biomedical Physics,Stanford University,"Biostatistics, Chemistry, Imaging Science, Medical Physics, Molecular Biology",Doctor of Philosophy (PhD),CLOSED,CLOSED,https://med.stanford.edu/bmp/prospective-students.html
+Clinical Informatics Management,Stanford University,"Business, Data Analytics, Data Science, Medicine",Master of Science (MS),CLOSED,CLOSED,https://med.stanford.edu/master-clinical-informatics-management/admissions.html
+Computational Precision Health,"University of California, Berkeley","Computer Science, Mathematics, Heatlh Science",Doctor of Philosophy (PhD),CLOSED,CLOSED,https://computationalhealth.berkeley.edu/
+Biomedical Engineering,"University of California, Davis","Engineering, Medicine, Translational Medicine",Master of Science (MS),CLOSED,CLOSED,https://www.ucdavis.edu/graduate-programs/biomedical-engineering
+Biomedical Engineering,"University of California, Davis","Engineering, Medicine, Translational Medicine",Doctor of Philosophy (PhD),CLOSED,CLOSED,https://www.ucdavis.edu/graduate-programs/biomedical-engineering
+Biostatistics,"University of California, Davis","Bioinformatics, Biology, Computer Science, Public Heatlh, Statisitics",Master of Science (MS),OPEN,"March 15th, 2025",https://biostatistics.ucdavis.edu/grad/masters-program-biostatistics 
+Biostatistics,"University of California, Davis","Bioinformatics, Biology, Computer Science, Public Heatlh, Statisitics",Doctor of Philosophy (PhD),OPEN,"March 15th, 2025",https://biostatistics.ucdavis.edu/grad/phd-program-biostatistics 
+Health Informatics,"University of California, Davis","Computer Science, Engineering, Health Science, Public Heatlh, Statistics",Master of Science (MS),OPEN,"March 1st, 2025",https://health.ucdavis.edu/informatics/
+Bioengineering,"University of California, Los Angeles","Engineering, Life Science, Physical Science",Master of Science (MS),CLOSED,CLOSED,https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/bioengineering/
+Bioengineering,"University of California, Los Angeles","Engineering, Life Science, Physical Science",Doctor of Philosophy (PhD),CLOSED,CLOSED,https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/bioengineering/
+Bioinformatics,"University of California, Los Angeles","Biology, Computer Science, Mathematics, Statistics",Master of Science (MS),OPEN,"April 16th, 2025",https://grad.ucla.edu/programs/life-sciences/bioinformatics-department/bioinformatics/
+Bioinformatics,"University of California, Los Angeles","Biology, Computer Science, Mathematics, Statistics",Doctor of Philosophy (PhD),CLOSED,CLOSED,https://grad.ucla.edu/programs/life-sciences/bioinformatics-department/bioinformatics/
+Biostatistics,"University of California, Los Angeles","Biology, Computer Science, Statistics",Master of Science (MS),CLOSED,CLOSED,https://grad.ucla.edu/programs/school-of-public-health/biostatistics-department/biostatistics/
+Biostatistics,"University of California, Los Angeles","Biology, Computer Science, Statistics",Doctor of Philosophy (PhD),CLOSED,CLOSED,https://grad.ucla.edu/programs/school-of-public-health/biostatistics-department/biostatistics/
+Computational Precision Health,"University of California, San Francisco","Computer Science, Mathematics, Heatlh Science",Doctor of Philosophy (PhD),CLOSED,CLOSED,https://computationalhealth.berkeley.edu/
+Master of Science in Biomedical Imaging (MSBI),"University of California, San Francisco","Engineering, Mathematics, Health Science",Master of Science (MS),OPEN,"February 27th, 2025",https://radiology.ucsf.edu/education/graduate-programs/msbi-program
+Biomolecular Engineering & Bioinformatics,"University of California, Santa Cruz","Biology, Computer Science, Statisitics",Master of Science (MS),CLOSED,CLOSED,https://www.gradadmissions.ucsc.edu/bmeb-ms 
+Biomolecular Engineering & Bioinformatics,"University of California, Santa Cruz","Biology, Computer Science, Statisitics",Doctor of Philosophy (PhD),CLOSED,CLOSED,"https://www.gradadmissions.ucsc.edu/bmeb-pbse 
 "
-Biostastics,"University of California, Los Angeles","Biology
-Computer Science
-Statistics","Master of Science (MS)
-Doctor of Philosophy (PhD)",N/A,CLOSED,https://grad.ucla.edu/programs/school-of-public-health/biostatistics-department/biostatistics/
-Biostatistics,"University of California, Davis","Bioinformatics
-Biology
-Computer Science
-Public Heatlh
-Statisitics","Master of Science (MS)
-Doctor of Philosophy (PhD)",N/A,"March 15th, 2025 (MS/PhD)","(MS)
-https://biostatistics.ucdavis.edu/grad/masters-program-biostatistics 
-
-(PhD)
-https://biostatistics.ucdavis.edu/grad/phd-program-biostatistics "
-Clinical Informatics Management,Stanford University,"Business
-Data analytics/science
-Medicine",Master of Science (MS),N/A,"January 10th, 2025",https://med.stanford.edu/master-clinical-informatics-management/admissions.html
-Computational Precision Health,"University of California, San Francisco","Computer Science
-Mathematics
-Heatlh Science",Doctor of Philosophy (PhD),"September 12th, 2024",CLOSED,https://computationalhealth.berkeley.edu/
-Computational Precision Health,"University of California, Berkeley","Computer Science
-Mathematics
-Heatlh Science",Doctor of Philosophy (PhD),"September 12th, 2024",CLOSED,https://computationalhealth.berkeley.edu/
-Health Informatics,"University of California, Davis","Computer Science
-Engineering
-Health Science
-Public Heatlh
-Statistics",Master of Science (MS),N/A,"March 1st, 2025",https://health.ucdavis.edu/informatics/
-Master of Science in Biomedical Imaging (MSBI),"University of California, San Francisco","Engineering
-Mathematics
-Health Science",Master of Science (MS),"November 12th, 2024","February 27th, 2025",https://radiology.ucsf.edu/education/graduate-programs/msbi-program
