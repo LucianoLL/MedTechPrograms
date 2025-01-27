@@ -27,13 +27,40 @@ headerTitle = dbc.Row(children=[
        can in fact coexist.
 """
 introText = dash.html.P(children=[
-    dash.html.B(children=[
-        """MedTech Programs """]),
+    dash.html.B(children=["""MedTech Programs """]),
     """
     is a site for people who have an interest in both engineering and medicine. Here, you'll 
-    find institutions and degree programs within the med tech field. You can view the entire 
-    database of programs and institutions at it's current state, you can search programs via 
+    find institutions and degree programs within the medtech field. You can view the entire 
+    database of programs and institutions, you can search programs via 
     institution, or search institutions via programs.
+    """,
+    dash.html.Br()
+    ,
+    """
+    Updates on this website will be sparse since it is only one person running the site,
+    and can be difficult to keep track of new programs and institutions, along with
+    keeping track of deadlines. Perhaps in the future more people could contribute,
+    but for now it is just one person running everything.
     """],
     style={"margin-left":15,
            "margin-right":15})
+
+aboutText = dash.html.P(children=[
+    """
+    The site started off as a Google spreadsheet, inspired after attending the
+    """,
+    dash.html.B(children=[" Pre-Health Conference at UC Davis "]),
+    """
+    and realizing that there were very few programs that combined health, medicine, and 
+    engineering. Yet, at the same time also realizing that there was a variety of majors
+    and programs within medicine that allowed room for engineering in their research.
+    Thus the search began for collecting information on programs that allowed for
+    medicine and engineering, through that research is also how the term
+    """,
+    dash.html.B(children=" medtech "),
+    """
+    came to light. The only issue with a Google spreadsheet is that it's not as easy to
+    share with the general public, which is also why this site was created.
+    """],
+    style={"margin-left": 15,
+           "margin-right": 15})

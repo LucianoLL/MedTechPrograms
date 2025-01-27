@@ -25,12 +25,12 @@ disclaimerFooter = dbc.Row(children=[
                 """])]),
             dash.html.Center(children=["""
             This website is an independent project, and is no way associated directly
-            with any university or institution mentioned in this website. Any logos,
-            imagery, names, and anything that was created or belongs to any university 
-            or institution mentioned is their own intellectual property. This website
-            is not monetized nor is intended for any type of monetization, all data and
-            information present was hand selected via publicly accessible information
-            provided by said universities and institutions online through their own
+            with any university or institution mentioned in this site. Any logos,
+            imagery, names, and anything that was created or belonging to any of the
+            universities or institutions mentioned is their own intellectual property. 
+            This website is not monetized nor is it intended for any type of monetization, 
+            all data and information present is hand selected via publicly accessible 
+            information from said universities and institutions online through their own
             websites.
             """],
                              style={"color":"#000000"})],

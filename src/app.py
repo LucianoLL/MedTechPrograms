@@ -20,13 +20,18 @@ app._favicon = "logo.ico"
 siteLogo = dash.html.Img(src="assets/logo.png",
                          style={"width": 450})
 
-headerRow = dash.html.A(
-    dbc.Row(children=[dbc.Col(children=siteLogo)]),
-    href="/",
-    style={"margin-left":100}
-)
-
-siteNavbar = dbc.Navbar(children=[headerRow],
+siteNavbar = dbc.Navbar(children=[
+    dbc.Col(children=[
+        dash.html.A(children=[siteLogo],
+                    href="/",
+                    style={"margin-left":10})]),
+    dbc.Nav(children=[
+            dash.html.Div(children=[
+                dbc.Button(children=["GitHub Repo"],
+                           href="https://github.com/LucianoLL/MedTechPrograms",
+                           style={"background-color":"#68BAEC"})])],
+        fill=True,
+        style={"margin-right":25})],
     color="light"
 )
 
@@ -42,6 +47,7 @@ pagesNavbar = dbc.Nav([
 )
 
 app.layout = dash.html.Div(children=[siteNavbar,
+                                     # headerRow,
                                      pagesNavbar,
                                      dash.page_container,
                                      ca.siteFooter,

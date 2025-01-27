@@ -21,15 +21,17 @@ headerTitle = dbc.Row(children=[
 
 text01 = dbc.Row(children=[
     dbc.Col(children=[
-        dash.html.P(children=[
-            """All institutions are organized by their offered""",
-            dash.html.B(children=[" MedTech "]),
-            """programs. Clicking on each institute will display
-            a table of offered programs at that institution."""],
-            style={"fontSize":25,
-                   "margin-top":45,
-                   "margin-bottom":45}
-        )
-    ])],
+        dash.html.P(children=["""All institutions are organized by their offered""",
+                              dash.html.B(children=[" MedTech "]),
+                              """
+                              programs. Clicking on each institute will display
+                              a table of programs offered at that institution.
+                              """],
+                    style={"margin-right":250,
+                           "margin-left":250})],
+        style={"fontSize":25,
+               "margin-top":45,
+               "margin-bottom":45}
+    )],
     style={"margin":"auto"}
 )
