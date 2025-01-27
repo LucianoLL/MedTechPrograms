@@ -28,19 +28,19 @@ disclaimerFooter = dbc.Row(children=[
             with any university or institution mentioned on this site. Any logos,
             imagery, names, and anything that was created or belonging to any
             university or institution is their own intellectual property. 
-            This website is not monetized nor is it intended for any type of monetization, 
-            all data and information present is hand selected via publicly accessible 
-            information from said universities and institutions online through their own
-            websites.
+            This website is not monetized nor is it intended for any type of monetization 
+            or revenue, all data and information present is hand selected via publicly 
+            accessible information from said universities and institutions online through 
+            their own websites.
             """],
                              style={"color":"#000000"})],
             style={"margin-top":15,
-                   "margin-bottom":15,
+                   "margin-bottom":35,
                    "margin-right":250,
                    "margin-left":250,
                    })]
     )],
-    style={"background-color":"#FF584D", #"#FF1000",
+    style={"background-color":"#AE8BF0", #"#FF1000", "#9D72ED", "#FF584D"
            "margin":"auto"}
 )
 

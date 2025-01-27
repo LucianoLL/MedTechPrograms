@@ -29,7 +29,7 @@ siteNavbar = dbc.Navbar(children=[
             dash.html.Div(children=[
                 dbc.Button(children=["GitHub Repo"],
                            href="https://github.com/LucianoLL/MedTechPrograms",
-                           style={"background-color":"#68BAEC"})])],
+                           style={"background-color":"#AE8BF0"})])], # "#68BAEC"
         fill=True,
         style={"margin-right":25})],
     color="light"

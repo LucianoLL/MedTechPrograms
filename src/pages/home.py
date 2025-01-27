@@ -13,17 +13,18 @@ dash.register_page(__name__,
                    title="Home",
                    path='/')
 
+homeImage = dash.html.Img(src="assets/homeLogo.png",
+                          width=550,)
+
 
 homeTabs = dbc.Tabs(children=[
     dbc.Tab(children=[ha.introText],
-            active_label_style={"font-weight": "bold",
-                                "fontSize":20},
+            active_label_style={"font-weight": "bold"},
             label="Welcome",
             tab_id="card01",
             style={"fontSize":25}),
     dbc.Tab(children=[ha.aboutText],
-            active_label_style={"font-weight": "bold",
-                                "fontSize": 20},
+            active_label_style={"font-weight": "bold"},
             label="About",
             tab_id="card02",
             style={"fontSize": 25}
@@ -31,15 +32,14 @@ homeTabs = dbc.Tabs(children=[
     active_tab="card01"
 )
 
-homeRow = dbc.Nav(children=[
-    dbc.Row(children=[
-        dbc.Col(homeTabs,
-                lg=5)],
+homeRow = dbc.Row(children=[
+    dbc.Col(children=[homeTabs],
+            width=6),
+    dbc.Col(children=[homeImage],
+            width={"offset":1})],
     style={"margin":"auto",
            "margin-bottom":25,
-           "margin-top":25})],
-
-)
+           "margin-top":25})
 
 
 layout = dash.html.Div(children=[ha.headerTitle,

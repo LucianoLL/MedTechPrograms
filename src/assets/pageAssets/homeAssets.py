@@ -36,13 +36,16 @@ introText = dash.html.P(children=[
     """,
     dash.html.Br()
     ,
-    """
-    Updates on this website will be sparse since it is only one person running the site,
-    and can be difficult to keep track of new programs and institutions, along with
-    keeping track of deadlines. Perhaps in the future more people could contribute,
-    but for now it is just one person running everything.
-    """],
-    style={"margin-left":15,
+    # """
+    # Updates on this website will be sparse since it is only one person running the site,
+    # and can be difficult to keep track of new programs and institutions, along with
+    # keeping track of deadlines. Perhaps in the future more people could contribute,
+    # but for now it is just one person running everything.
+    # """
+],
+    style={"margin-top":15,
+           "margin-bottom":15,
+           "margin-left":15,
            "margin-right":15})
 
 aboutText = dash.html.P(children=[
@@ -55,12 +58,15 @@ aboutText = dash.html.P(children=[
     engineering. Yet, at the same time also realizing that there was a variety of majors
     and programs within medicine that allowed for engineering in their research.
     Thus the search began for collecting information on programs that allowed for
-    medicine and engineering, through that research is also how the term
-    """,
-    dash.html.B(children=" medtech "),
-    """
-    came to light. The only issue with a Google spreadsheet is that it's not as easy to
-    share with the general public, which is why this site was created.
+    medicine and engineering, checking several university websites, scouring various
+    major catalogues, information that's publicly accessible to anyone online.
+    The only issue with a Google spreadsheet is that it's not as easy to
+    share with the general public, which is why this site was created. The goal is for
+    people to find this site in hopes of finding a major or program within the medtech
+    field. Medicine and engineering don't have to be exclusively separate, nor should 
+    they be.
     """],
-    style={"margin-left": 15,
+    style={"margin-top":15,
+           "margin-bottom":15,
+           "margin-left": 15,
            "margin-right": 15})
