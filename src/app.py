@@ -57,4 +57,4 @@ app.layout = dash.html.Div(children=[siteNavbar,
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run_server(debug=True)
