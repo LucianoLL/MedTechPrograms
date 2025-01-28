@@ -14,7 +14,7 @@ app = dash.Dash(__name__,
                                       dbc.icons.FONT_AWESOME],
                 use_pages=True)
 
-# server = app.server
+server = app.server
 
 app._favicon = "logo.ico"
 
