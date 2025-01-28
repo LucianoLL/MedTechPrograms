@@ -14,6 +14,8 @@ app = dash.Dash(__name__,
                                       dbc.icons.FONT_AWESOME],
                 use_pages=True)
 
+# server = app.server
+
 app._favicon = "logo.ico"
 
 
@@ -55,4 +57,4 @@ app.layout = dash.html.Div(children=[siteNavbar,
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8060)
+    app.run(debug=True)
