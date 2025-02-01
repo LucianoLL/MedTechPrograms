@@ -8,6 +8,9 @@ import dash
 import dash_bootstrap_components as dbc
 import pandas as pd
 import assets.pageAssets.commonAssets as ca
+import assets.callbackFunctions.gradPrograms as gpf
+import assets.callbackFunctions.institutions as icf
+
 
 app = dash.Dash(__name__,
                 external_stylesheets=[dbc.themes.LUX,
@@ -49,12 +52,13 @@ pagesNavbar = dbc.Nav([
 )
 
 app.layout = dash.html.Div(children=[siteNavbar,
-                                     # headerRow,
                                      pagesNavbar,
                                      dash.page_container,
                                      ca.siteFooter,
                                      ca.disclaimerFooter])
 
+gpf.gradProgramsFilters(app=app)
+icf.institutionsFilters(app=app)
 
 if __name__ == '__main__':
     app.run_server(debug=True)

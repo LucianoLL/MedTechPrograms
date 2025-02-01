@@ -6,33 +6,22 @@ Date: 1/20/2025
 
 import dash
 import dash_bootstrap_components as dbc
-import assets.pageAssets.commonAssets as ca
 import assets.pageAssets.gradProgramsAssets as gpa
 
 dash.register_page(__name__,
                    title="Grad Programs")
 
-programSet = set()
-for tmpPro in ca.programDF["Program"]:
-    programSet.add(tmpPro)
-    pass
+toggleButton = dbc.Button(id="toggle-01",
+                          n_clicks=0,
+                          style={"background-color":"#AE8BF0"})
 
 programAccordian = dash.html.Div(children=[
-    dbc.Accordion(children=[
-        dbc.AccordionItem(children=[
-            dbc.Table.from_dataframe(#ca.programAccFcn(ca.programDF, tmpPro),
-                                     ca.DFFcn(ca.programDF, tmpPro, "Program", "Institution"),
-                                     color="info",
-                                     striped=True,
-                                     style={"margin":"auto"})],
-            title=tmpPro,
-
-        )
-        for tmpPro in sorted(programSet)],
-        always_open=False)
+    dbc.Accordion(always_open=False,
+                  id="accord-01")
 ])
 
 
 layout = dash.html.Div(children=[gpa.headerTitle,
                                  gpa.text01,
+                                 toggleButton,
                                  programAccordian])

@@ -35,3 +35,5 @@ text01 = dbc.Row(children=[
     )],
     style={"margin":"auto"}
 )
+
+

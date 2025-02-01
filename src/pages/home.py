@@ -21,15 +21,15 @@ homeTabs = dbc.Tabs(children=[
     dbc.Tab(children=[ha.introText],
             active_label_style={"font-weight": "bold"},
             label="Welcome",
-            tab_id="card01",
+            tab_id="tab01",
             style={"fontSize":25}),
     dbc.Tab(children=[ha.aboutText],
             active_label_style={"font-weight": "bold"},
             label="About",
-            tab_id="card02",
+            tab_id="tab02",
             style={"fontSize": 25}
             )],
-    active_tab="card01"
+    active_tab="tab01"
 )
 
 homeRow = dbc.Row(children=[

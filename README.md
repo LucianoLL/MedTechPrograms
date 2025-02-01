@@ -1,7 +1,10 @@
 # MedTechPrograms
 
-## Update: 1/29/2025
-Site has been deployed since January 28th, 2025.
+## Update: 2/1/2025
+Recently updated the site by adding new programs and 
+institutions to the database. Also included a filter 
+toggle to two of the pages, now you can filter out 
+programs with closed applications or view all.
 
 Link to the site:
 

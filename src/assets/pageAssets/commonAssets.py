@@ -24,7 +24,7 @@ disclaimerFooter = dbc.Row(children=[
                 *** DISCLAIMER ***\n
                 """])]),
             dash.html.Center(children=["""
-            This website is an independent project, and is no way associated directly
+            This website is an independent project, and is in no way directly associated
             with any university or institution mentioned on this site. Any logos,
             imagery, names, and anything that was created or belonging to any
             university or institution is their own intellectual property. 
@@ -49,4 +49,17 @@ programDF = pd.read_csv(filepath_or_buffer="assets/EngineeringHealthGradPrograms
 def DFFcn(tmpDF, var01, filterVar, sortVar):
     phDF = tmpDF.loc[tmpDF[filterVar] == var01].sort_values(sortVar)
     return  phDF.loc[:, phDF.columns != filterVar]
+    pass
+
+def accordChildren(tmpSet, tmpDF, var01, var02):
+    tmpList = [dbc.AccordionItem(children=[
+        dbc.Table.from_dataframe(DFFcn(tmpDF, tmpLabel, filterVar=var01, sortVar=var02),
+                                 color="info",
+                                 striped=True,
+                                 style={"margin": "auto"})],
+        title=tmpLabel,
+
+    ) for tmpLabel in sorted(tmpSet)]
+
+    return tmpList
     pass
