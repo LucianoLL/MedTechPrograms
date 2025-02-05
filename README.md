@@ -1,10 +1,9 @@
 # MedTechPrograms
 
-## Update: 2/1/2025
-Recently updated the site by adding new programs and 
-institutions to the database. Also included a filter 
-toggle to two of the pages, now you can filter out 
-programs with closed applications or view all.
+## Update: 2/4/2025
+Added new updates to the code, now all links in the
+database are clickable. Even made it so that links open up on
+new tabs rather than the current one.
 
 Link to the site:
 

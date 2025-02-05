@@ -6,7 +6,6 @@ Date: 1/18/2025
 
 import dash
 import dash_bootstrap_components as dbc
-import pandas as pd
 import assets.pageAssets.commonAssets as ca
 import assets.callbackFunctions.gradPrograms as gpf
 import assets.callbackFunctions.institutions as icf
@@ -34,7 +33,8 @@ siteNavbar = dbc.Navbar(children=[
             dash.html.Div(children=[
                 dbc.Button(children=["GitHub Repo"],
                            href="https://github.com/LucianoLL/MedTechPrograms",
-                           style={"background-color":"#AE8BF0"})])], # "#68BAEC"
+                           style={"background-color":"#AE8BF0"},
+                           target="_blank")])], # "#68BAEC"
         fill=True,
         style={"margin-right":25})],
     color="light"

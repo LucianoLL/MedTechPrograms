@@ -13,7 +13,6 @@ import assets.pageAssets.fullDatabaseAssets as fda
 dash.register_page(__name__,
                    title="Full Database")
 
-
 firstTable = dbc.Table.from_dataframe(ca.programDF.sort_values("Program"),
                                       color="info",
                                       striped=True)
