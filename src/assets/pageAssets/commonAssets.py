@@ -44,7 +44,15 @@ disclaimerFooter = dbc.Row(children=[
            "margin":"auto"}
 )
 
+def clickableLinkFcn(tmpURL):
+    return dash.html.A(children=[tmpURL],
+                       target="_blank",
+                       href=tmpURL)
+
+    pass
+
 programDF = pd.read_csv(filepath_or_buffer="assets/EngineeringHealthGradPrograms.csv")
+programDF["Program Website"] = programDF["Program Website"].apply(clickableLinkFcn)
 
 def DFFcn(tmpDF, var01, filterVar, sortVar):
     phDF = tmpDF.loc[tmpDF[filterVar] == var01].sort_values(sortVar)

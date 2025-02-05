@@ -16,27 +16,26 @@ def institutionsFilters(app):
         dash.Input(component_id="toggle-02", component_property="n_clicks")
     )
     def openAppFilter(toggle):
+        tmpDF = ca.programDF
+        programSet = set()
+
         if (toggle % 2) == 0:
             tmpColor = {"background-color":"#AE8BF0"}
             tmpLabel = "Show Open Status Only",
 
-            programSet = set()
             for tmpPro in ca.programDF["Institution"]:
                 programSet.add(tmpPro)
                 pass
-
-            tmpList = ca.accordChildren(programSet, ca.programDF, "Institution", "Program")
 
         else:
             tmpColor = {"background-color":"#0087D5"}
             tmpLabel = "Show All"
 
-            openDF = ca.programDF[ca.programDF["Open Status"] != "CLOSED"]
-            programSet = set()
-            for tmpPro in openDF["Institution"]:
+            tmpDF = ca.programDF[ca.programDF["Open Status"] != "CLOSED"]
+
+            for tmpPro in tmpDF["Institution"]:
                 programSet.add(tmpPro)
                 pass
 
-            tmpList = ca.accordChildren(programSet, openDF, "Institution", "Program")
-
-        return tmpList, tmpColor, tmpLabel
+        tmpAccord = ca.accordChildren(programSet, tmpDF, "Institution", "Program")
+        return tmpAccord, tmpColor, tmpLabel

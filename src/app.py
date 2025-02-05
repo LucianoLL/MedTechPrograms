@@ -6,7 +6,6 @@ Date: 1/18/2025
 
 import dash
 import dash_bootstrap_components as dbc
-import pandas as pd
 import assets.pageAssets.commonAssets as ca
 import assets.callbackFunctions.gradPrograms as gpf
 import assets.callbackFunctions.institutions as icf
@@ -17,7 +16,7 @@ app = dash.Dash(__name__,
                                       dbc.icons.FONT_AWESOME],
                 use_pages=True)
 
-server = app.server
+# server = app.server
 
 app._favicon = "logo.ico"
 
@@ -34,7 +33,8 @@ siteNavbar = dbc.Navbar(children=[
             dash.html.Div(children=[
                 dbc.Button(children=["GitHub Repo"],
                            href="https://github.com/LucianoLL/MedTechPrograms",
-                           style={"background-color":"#AE8BF0"})])], # "#68BAEC"
+                           style={"background-color":"#AE8BF0"},
+                           target="_blank")])], # "#68BAEC"
         fill=True,
         style={"margin-right":25})],
     color="light"
@@ -61,4 +61,5 @@ gpf.gradProgramsFilters(app=app)
 icf.institutionsFilters(app=app)
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    # app.run_server(debug=True)
+    app.run(debug=True)
