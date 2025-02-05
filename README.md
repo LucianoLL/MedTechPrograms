@@ -1,9 +1,7 @@
 # MedTechPrograms
 
 ## Update: 2/4/2025
-Added new updates to the code, now all links in the
-database are clickable. Even made it so that links open up on
-new tabs rather than the current one.
+Updated the database, added programs from California State University, East Bay.
 
 Link to the site:
 
