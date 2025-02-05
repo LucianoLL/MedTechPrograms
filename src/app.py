@@ -16,7 +16,7 @@ app = dash.Dash(__name__,
                                       dbc.icons.FONT_AWESOME],
                 use_pages=True)
 
-# server = app.server
+server = app.server
 
 app._favicon = "logo.ico"
 
@@ -61,5 +61,4 @@ gpf.gradProgramsFilters(app=app)
 icf.institutionsFilters(app=app)
 
 if __name__ == '__main__':
-    # app.run_server(debug=True)
-    app.run(debug=True)
+    app.run_server(debug=True)
