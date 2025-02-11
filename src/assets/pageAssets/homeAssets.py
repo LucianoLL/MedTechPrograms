@@ -33,16 +33,7 @@ introText = dash.html.P(children=[
     find institutions and degree programs within the medtech field. You can view the entire 
     database of programs and institutions, you can search programs via 
     institution, or search institutions via programs.
-    """,
-    # dash.html.Br()
-    # ,
-    # """
-    # Updates on this website will be sparse since it is only one person running the site,
-    # and can be difficult to keep track of new programs and institutions, along with
-    # keeping track of deadlines. Perhaps in the future more people could contribute,
-    # but for now it is just one person running everything.
-    # """
-],
+    """],
     style={"margin-top":"2%",
            "margin-bottom":"2%",
            "margin-left":"2%",

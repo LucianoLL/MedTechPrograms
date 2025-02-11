@@ -1,11 +1,8 @@
 # MedTechPrograms
 
-## Update: 2/10/2025
-Updated the margins on the site to be in percentages rather
-that set pixel lengths. Doing so will make the site more
-scalable and mobile friendly. Not sure if it's ready to merge
-with the main branch, but probably after today once I mess
-around with other screen sizes.
+## Update: 2/11/2025
+Going to merge new updates to Main, that includes the new institutions and
+their programs along with the new margin settings for the text and images.
 
 Link to the site:
 
