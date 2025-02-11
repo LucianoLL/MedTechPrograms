@@ -12,8 +12,8 @@ headerTitle = dbc.Row(children=[
         dash.html.Center(children=[
             dash.html.H1(children="Home",
                          style={"fontSize":45,
-                                "margin-top":15,
-                                "margin-bottom":15})]
+                                "margin-top":"1%",
+                                "margin-bottom":"1%"})]
         )])],
     style={"background-color":"#68BAEC",
            "margin":"auto"}
@@ -33,20 +33,11 @@ introText = dash.html.P(children=[
     find institutions and degree programs within the medtech field. You can view the entire 
     database of programs and institutions, you can search programs via 
     institution, or search institutions via programs.
-    """,
-    dash.html.Br()
-    ,
-    # """
-    # Updates on this website will be sparse since it is only one person running the site,
-    # and can be difficult to keep track of new programs and institutions, along with
-    # keeping track of deadlines. Perhaps in the future more people could contribute,
-    # but for now it is just one person running everything.
-    # """
-],
-    style={"margin-top":15,
-           "margin-bottom":15,
-           "margin-left":15,
-           "margin-right":15})
+    """],
+    style={"margin-top":"2%",
+           "margin-bottom":"2%",
+           "margin-left":"2%",
+           "margin-right":"2%"})
 
 aboutText = dash.html.P(children=[
     """
@@ -66,7 +57,7 @@ aboutText = dash.html.P(children=[
     field. Medicine and engineering don't have to be exclusively separate, nor should 
     they be.
     """],
-    style={"margin-top":15,
-           "margin-bottom":15,
-           "margin-left": 15,
-           "margin-right": 15})
+    style={"margin-top":"2%",
+           "margin-bottom":"2%",
+           "margin-left": "2%",
+           "margin-right": "2%"})

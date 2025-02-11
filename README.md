@@ -1,9 +1,8 @@
 # MedTechPrograms
 
-## Update: 2/4/2025
-Added new updates to the code, now all links in the
-database are clickable. Even made it so that links open up on
-new tabs rather than the current one.
+## Update: 2/11/2025
+Going to merge new updates to Main, that includes the new institutions and
+their programs along with the new margin settings for the text and images.
 
 Link to the site:
 

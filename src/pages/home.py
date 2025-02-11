@@ -14,7 +14,7 @@ dash.register_page(__name__,
                    path='/')
 
 homeImage = dash.html.Img(src="assets/homeLogo.png",
-                          width=550,)
+                          width="75%",)
 
 
 homeTabs = dbc.Tabs(children=[
@@ -38,8 +38,8 @@ homeRow = dbc.Row(children=[
     dbc.Col(children=[homeImage],
             width={"offset":2})],
     style={"margin":"auto",
-           "margin-bottom":25,
-           "margin-top":25})
+           "margin-bottom":"2%",
+           "margin-top":"2%"})
 
 
 layout = dash.html.Div(children=[ha.headerTitle,

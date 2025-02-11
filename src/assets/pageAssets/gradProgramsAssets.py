@@ -12,8 +12,8 @@ headerTitle = dbc.Row(children=[
         dash.html.Center(children=[
             dash.html.H1(children="Grad Programs",
                          style={"fontSize":45,
-                                "margin-top":15,
-                                "margin-bottom":15})]
+                                "margin-top":"1%",
+                                "margin-bottom":"1%"})]
         )])],
     style={"background-color": "#68BAEC",
            "margin": "auto"}
@@ -27,11 +27,11 @@ text01 = dbc.Row(children=[
                               programs. Clicking on each program will display a list of
                               schools and institutions that offer that specific program.
                               """],
-                    style={"margin-right":250,
-                           "margin-left":250})],
+                    style={"margin-right":"15%",
+                           "margin-left":"15%"})],
         style={"fontSize":25,
-               "margin-top":45,
-               "margin-bottom":45}
+               "margin-top":"2%",
+               "margin-bottom":"2%"}
     )],
     style={"margin":"auto"}
 )
