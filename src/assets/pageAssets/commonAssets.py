@@ -10,8 +10,8 @@ import dash_bootstrap_components as dbc
 siteFooter = dbc.Row(children=[
         dash.html.Center(children="Created: Luciano L. Lorenzana, 2025",
                      style={"color":"#000000",
-                            "margin-bottom":25,
-                            "margin-top":25})],
+                            "margin-bottom":"2%",
+                            "margin-top":"2%"})],
     style={"background-color":"#0087D5",
            "margin":"auto"}
 )
@@ -34,10 +34,11 @@ disclaimerFooter = dbc.Row(children=[
             their own websites.
             """],
                              style={"color":"#000000"})],
-            style={"margin-top":15,
-                   "margin-bottom":35,
-                   "margin-right":250,
-                   "margin-left":250,
+
+            style={"margin-top":"1%",
+                   "margin-bottom":"2%",
+                   "margin-right":"15%",
+                   "margin-left":"15%",
                    })]
     )],
     style={"background-color":"#AE8BF0", #"#FF1000", "#9D72ED", "#FF584D"

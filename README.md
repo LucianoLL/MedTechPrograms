@@ -1,7 +1,11 @@
 # MedTechPrograms
 
-## Update: 2/4/2025
-Updated the database, added programs from California State University, East Bay.
+## Update: 2/10/2025
+Updated the margins on the site to be in percentages rather
+that set pixel lengths. Doing so will make the site more
+scalable and mobile friendly. Not sure if it's ready to merge
+with the main branch, but probably after today once I mess
+around with other screen sizes.
 
 Link to the site:
 

@@ -22,13 +22,13 @@ app._favicon = "logo.ico"
 
 
 siteLogo = dash.html.Img(src="assets/logo.png",
-                         style={"width": 450})
+                         style={"width": "30%"})
 
 siteNavbar = dbc.Navbar(children=[
     dbc.Col(children=[
         dash.html.A(children=[siteLogo],
                     href="/",
-                    style={"margin-left":10})]),
+                    style={"margin-left":"1%"})]),
     dbc.Nav(children=[
             dash.html.Div(children=[
                 dbc.Button(children=["GitHub Repo"],
@@ -36,7 +36,7 @@ siteNavbar = dbc.Navbar(children=[
                            style={"background-color":"#AE8BF0"},
                            target="_blank")])], # "#68BAEC"
         fill=True,
-        style={"margin-right":25})],
+        style={"margin-right":"2%"})],
     color="light"
 )
 
