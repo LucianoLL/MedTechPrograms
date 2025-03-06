@@ -1,8 +1,8 @@
 # MedTechPrograms
 
-## Update: 2/11/2025
-Going to merge new updates to Main, that includes the new institutions and
-their programs along with the new margin settings for the text and images.
+## Update: 3/5/2025
+Going to merge new updates to Main, updated the deadlines for some programs.
+Also included some new institutions and grad programs to the database.
 
 Link to the site:
 
