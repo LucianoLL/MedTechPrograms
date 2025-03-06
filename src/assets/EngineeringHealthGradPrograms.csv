@@ -1,4 +1,20 @@
 Program,Institution,Covered Fields,Degree Type(s),Open Status,Application Deadline,Program Website
+Biomedical Engineering,Cal Poly San Luis Obispo,"Engineering, Human Health, Regenerative Medicine",Master of Science (MS),CLOSED,CLOSED,https://grad.calpoly.edu/program.php?pid=8
+Assistive Technology Engineering,California State University Northridge,"Computer Science, Engineering, Mechanical Engineering, Neuroscience ",Master of Science (MS),CLOSED,CLOSED,https://www.csun.edu/academics/majors-and-programs/assistive-technology-engineering-ms
+Assistive Technology Studies and Human Services,California State University Northridge," ADA Regulations, Communication, Product Design Interpretation
+",Master of Science (MS),CLOSED,CLOSED,https://www.csun.edu/academics/majors-and-programs/assistive-technology-studies-and-human-services-ms
+Radiologic Technology,California State University Northridge,"Diagnostics, Radiologic-Science",Certificate - Advanced Professional Development (Non-Credit),CLOSED,CLOSED,https://www.csun.edu/academics/majors-and-programs/radiologic-technology-ctmri-capd-certificate
+Biostatistics,"California State University, East Bay","Biology, Statistics",Professional Science Masters (PSM),CLOSED,CLOSED,https://www.csueastbay.edu/statistics/biostatistics-psm/index.html
+Biotechnology,"California State University, East Bay","Biology, Chemistry, Genetics, Microbiology",Biotechnology Certificate,CLOSED,CLOSED,https://www.csueastbay.edu/biology/graduate-program/biotechnology-certificate-program-bcp/index.html
+Biotechnology,"California State University, Los Angeles","Biochemistry, Biology, Physics, Medical Technology, Microbiology",Post-Baccalaureate Certificate,CLOSED,CLOSED,https://ecatalog.calstatela.edu/preview_program.php?catoid=54&poid=25411&returnto=6231
+Biological Engineering,Massachusetts Institute of Technology,"Biology, Chemistry, Computer Science, Health Science",Master of Science (MS),CLOSED,CLOSED,https://be.mit.edu/graduate-program/
+Biological Engineering,Massachusetts Institute of Technology,"Biology, Chemistry, Computer Science, Health Science",Doctor of Philosophy (PhD),CLOSED,CLOSED,https://be.mit.edu/graduate-program/
+Biophysics,Massachusetts Institute of Technology,"Biology, Physics, Physical Science, Engineering",MIT Biophysics Certificate,N/A,N/A,https://biophysics.mit.edu/
+Computational and Systems Biology,Massachusetts Institute of Technology,"Biology, Biomedical Imaging, Engineering, Precision Medicine, ",Doctor of Philosophy (PhD),CLOSED,CLOSED,https://csbphd.mit.edu/
+Bioinformatics,San José State University,"Bioinformatics, Biology, Computer Science, Mathematics",Master of Science (MS),CLOSED,CLOSED,https://catalog.sjsu.edu/preview_program.php?catoid=2&poid=499
+Biomedical Engineering,San José State University,"Engineering, Physical Science",Master of Science (MS),CLOSED,CLOSED,https://catalog.sjsu.edu/preview_program.php?catoid=2&poid=508#program-objectives
+"Biomedical Engineering, Biomedical Devices Concentration",San José State University,"Chemistry, Engineering, Physics",Master of Science (MS),CLOSED,CLOSED,https://catalog.sjsu.edu/preview_program.php?catoid=2&poid=441
+Biotechnology,San José State University,"Drug Development, Finance, Marketing, Molecular Biology",Master of Biotechnology (MBT),CLOSED,CLOSED,https://catalog.sjsu.edu/preview_program.php?catoid=2&poid=509
 Bioengineering,Stanford University,"Biology, Engineering, Health Science",Master of Science (MS),CLOSED,CLOSED,https://bioengineering.stanford.edu/academics-admission
 Bioengineering,Stanford University,"Biology, Engineering, Health Science",Doctor of Philosophy (PhD),CLOSED,CLOSED,https://bioengineering.stanford.edu/academics-admission
 Biomedical Data Science,Stanford University,"Computer Science, Genetics, Statistics",Master of Science (MS),CLOSED,CLOSED,https://dbds.stanford.edu/for-prospective-students/
@@ -10,7 +26,7 @@ Biomedical Engineering,"University of California, Davis","Engineering, Medicine,
 Biomedical Engineering,"University of California, Davis","Engineering, Medicine, Translational Medicine",Doctor of Philosophy (PhD),CLOSED,CLOSED,https://www.ucdavis.edu/graduate-programs/biomedical-engineering
 Biostatistics,"University of California, Davis","Bioinformatics, Biology, Computer Science, Public Heatlh, Statisitics",Master of Science (MS),OPEN,"March 15th, 2025",https://biostatistics.ucdavis.edu/grad/masters-program-biostatistics 
 Biostatistics,"University of California, Davis","Bioinformatics, Biology, Computer Science, Public Heatlh, Statisitics",Doctor of Philosophy (PhD),OPEN,"March 15th, 2025",https://biostatistics.ucdavis.edu/grad/phd-program-biostatistics 
-Health Informatics,"University of California, Davis","Computer Science, Engineering, Health Science, Public Heatlh, Statistics",Master of Science (MS),OPEN,"March 1st, 2025",https://health.ucdavis.edu/informatics/
+Health Informatics,"University of California, Davis","Computer Science, Engineering, Health Science, Public Heatlh, Statistics",Master of Science (MS),CLOSED,CLOSED,https://health.ucdavis.edu/informatics/
 Bioengineering,"University of California, Los Angeles","Engineering, Life Science, Physical Science",Master of Science (MS),CLOSED,CLOSED,https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/bioengineering/
 Bioengineering,"University of California, Los Angeles","Engineering, Life Science, Physical Science",Doctor of Philosophy (PhD),CLOSED,CLOSED,https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/bioengineering/
 Bioinformatics,"University of California, Los Angeles","Biology, Computer Science, Mathematics, Statistics",Master of Science (MS),OPEN,"April 16th, 2025",https://grad.ucla.edu/programs/life-sciences/bioinformatics-department/bioinformatics/
@@ -18,18 +34,7 @@ Bioinformatics,"University of California, Los Angeles","Biology, Computer Scienc
 Biostatistics,"University of California, Los Angeles","Biology, Computer Science, Statistics",Master of Science (MS),CLOSED,CLOSED,https://grad.ucla.edu/programs/school-of-public-health/biostatistics-department/biostatistics/
 Biostatistics,"University of California, Los Angeles","Biology, Computer Science, Statistics",Doctor of Philosophy (PhD),CLOSED,CLOSED,https://grad.ucla.edu/programs/school-of-public-health/biostatistics-department/biostatistics/
 Computational Precision Health,"University of California, San Francisco","Computer Science, Mathematics, Heatlh Science",Doctor of Philosophy (PhD),CLOSED,CLOSED,https://computationalhealth.berkeley.edu/
-Master of Science in Biomedical Imaging (MSBI),"University of California, San Francisco","Engineering, Mathematics, Health Science",Master of Science (MS),OPEN,"February 27th, 2025",https://radiology.ucsf.edu/education/graduate-programs/msbi-program
+Master of Science in Biomedical Imaging (MSBI),"University of California, San Francisco","Engineering, Mathematics, Health Science",Master of Science (MS),CLOSED,CLOSED,https://radiology.ucsf.edu/education/graduate-programs/msbi-program
 Biomolecular Engineering & Bioinformatics,"University of California, Santa Cruz","Biology, Computer Science, Statisitics",Master of Science (MS),CLOSED,CLOSED,https://www.gradadmissions.ucsc.edu/bmeb-ms 
 Biomolecular Engineering & Bioinformatics,"University of California, Santa Cruz","Biology, Computer Science, Statisitics",Doctor of Philosophy (PhD),CLOSED,CLOSED,"https://www.gradadmissions.ucsc.edu/bmeb-pbse 
 "
-"Biomedical Engineering, Biomedical Devices Concentration",San José State University,"Chemistry, Engineering, Physics",Master of Science (MS),CLOSED,CLOSED,https://catalog.sjsu.edu/preview_program.php?catoid=2&poid=441
-Biomedical Engineering,San José State University,"Engineering, Physical Science",Master of Science (MS),CLOSED,CLOSED,https://catalog.sjsu.edu/preview_program.php?catoid=2&poid=508#program-objectives
-Bioinformatics,San José State University,"Bioinformatics, Biology, Computer Science, Mathematics",Master of Science (MS),CLOSED,CLOSED,https://catalog.sjsu.edu/preview_program.php?catoid=2&poid=499
-Biotechnology,San José State University,"Drug Development, Finance, Marketing, Molecular Biology",Master of Biotechnology (MBT),CLOSED,CLOSED,https://catalog.sjsu.edu/preview_program.php?catoid=2&poid=509
-Biomedical Engineering,Cal Poly San Luis Obispo,"Engineering, Human Health, Regenerative Medicine",Master of Science (MS),CLOSED,CLOSED,https://grad.calpoly.edu/program.php?pid=8
-Assistive Technology Engineering,California State University Northridge,"Computer Science, Engineering, Mechanical Engineering, Neuroscience ",Master of Science (MS),CLOSED,CLOSED,https://www.csun.edu/academics/majors-and-programs/assistive-technology-engineering-ms
-Assistive Technology Studies and Human Services,California State University Northridge," ADA Regulations, Communication, Product Design Interpretation
-",Master of Science (MS),CLOSED,CLOSED,https://www.csun.edu/academics/majors-and-programs/assistive-technology-studies-and-human-services-ms
-Radiologic Technology,California State University Northridge,"Diagnostics, Radiologic-Science",Certificate - Advanced Professional Development (Non-Credit),CLOSED,CLOSED,https://www.csun.edu/academics/majors-and-programs/radiologic-technology-ctmri-capd-certificate
-Biostatistics,"California State University, East Bay","Biology, Statistics",Professional Science Masters (PSM),CLOSED,CLOSED,https://www.csueastbay.edu/statistics/biostatistics-psm/index.html
-Biotechnology,"California State University, East Bay","Biology, Chemistry, Genetics, Microbiology",Biotechnology Certificate Program (BCP),CLOSED,CLOSED,https://www.csueastbay.edu/biology/graduate-program/biotechnology-certificate-program-bcp/index.html
