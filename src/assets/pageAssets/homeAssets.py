@@ -41,10 +41,7 @@ introText = dash.html.P(children=[
 
 aboutText = dash.html.P(children=[
     """
-    The site started off as a Google spreadsheet, inspired after attending the
-    """,
-    dash.html.B(children=[" Pre-Health Conference at UC Davis "]),
-    """
+    The site started off as a Google spreadsheet, inspired after attending a pre-health conference
     and realizing that there were very few programs that combined health, medicine, and 
     engineering. Yet, at the same time also realizing that there was a variety of majors
     and programs within medicine that allowed for engineering in their research.
@@ -56,6 +53,21 @@ aboutText = dash.html.P(children=[
     people to find this site in hopes of finding a major or program within the medtech
     field. Medicine and engineering don't have to be exclusively separate, nor should 
     they be.
+    """],
+    style={"margin-top":"2%",
+           "margin-bottom":"2%",
+           "margin-left": "2%",
+           "margin-right": "2%"})
+
+updateText = dash.html.P(children=[
+    dash.html.H2(children=["3/11/2025"]),
+    """
+    Updated the database, reduced the amount of universities and institutions, along with the amount
+    of degree programs and majors. The site will focus on more select majors and programs more directly
+    associated with either bio or medicine, and engineering. The same goes with the universities and 
+    institutions, currently focusing only on public universities and institutions that are based in California. 
+    Since the site is run and managed by one person, these changes are meant to make the process of updating 
+    and maintaining the database a more streamline and manageable process. 
     """],
     style={"margin-top":"2%",
            "margin-bottom":"2%",

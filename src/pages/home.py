@@ -27,8 +27,13 @@ homeTabs = dbc.Tabs(children=[
             active_label_style={"font-weight": "bold"},
             label="About",
             tab_id="tab02",
-            style={"fontSize": 25}
-            )],
+            style={"fontSize": 25}),
+    dbc.Tab(children=[ha.updateText],
+            active_label_style={"font-weight": "bold"},
+            label="Updates",
+            tab_id="tab03",
+            style={"fontSize": 25}),
+    ],
     active_tab="tab01"
 )
 
