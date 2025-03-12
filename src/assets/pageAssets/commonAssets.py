@@ -8,10 +8,9 @@ import pandas as pd
 import dash_bootstrap_components as dbc
 
 siteFooter = dbc.Row(children=[
-        dash.html.Center(children="Created: Luciano L. Lorenzana, 2025",
-                     style={"color":"#000000",
-                            "margin-bottom":"2%",
-                            "margin-top":"2%"})],
+        dash.html.Center(style={"color":"#000000",
+                                "margin-bottom":"2%",
+                                "margin-top":"2%"})],
     style={"background-color":"#0087D5",
            "margin":"auto"}
 )
@@ -25,9 +24,9 @@ disclaimerFooter = dbc.Row(children=[
                 """])]),
             dash.html.Center(children=["""
             This website is an independent project, and is in no way directly associated
-            with any university or institution mentioned on this site. Any logos,
+            with or endorsed by any university or institution mentioned on this site. Any logos,
             imagery, names, and anything that was created or belonging to any
-            university or institution is their own intellectual property. 
+            university or institution is their own intellectual property and or trademark. 
             This website is not monetized nor is it intended for any type of monetization 
             or revenue, all data and information present is hand selected via publicly 
             accessible information from said universities and institutions online through 
@@ -52,7 +51,7 @@ def clickableLinkFcn(tmpURL):
 
     pass
 
-programDF = pd.read_csv(filepath_or_buffer="assets/EngineeringHealthGradPrograms.csv")
+programDF = pd.read_csv(filepath_or_buffer="assets/medtechDatabase.csv")
 programDF["Program Website"] = programDF["Program Website"].apply(clickableLinkFcn)
 
 def DFFcn(tmpDF, var01, filterVar, sortVar):
