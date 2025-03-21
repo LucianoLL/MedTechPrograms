@@ -60,15 +60,19 @@ aboutText = dash.html.P(children=[
            "margin-right": "2%"})
 
 updateText = dash.html.P(children=[
-    dash.html.H2(children=["3/11/2025"]),
+    dash.html.H2(children=["3/17/2025"]),
     """
-    Updated the database, reduced the amount of universities and institutions, along with the amount
-    of degree programs and majors. The site will focus on more select majors and programs more directly
-    associated with either bio or medicine, and engineering. The same goes with the universities and 
-    institutions, currently focusing only on public universities and institutions that are based in California. 
-    Since the site is run and managed by one person, these changes are meant to make the process of updating 
-    and maintaining the database a more streamline and manageable process. 
-    """],
+    Updated the database; updated the open status for the following programs who have closed their application portals:
+    """,
+    dash.html.Ul(children=[
+        dash.html.Li(children=["University of California, Davis",
+                               dash.html.Ul(children=[dash.html.Li(children=["Biostatistics, Master of Science (MS)"]),
+                                                      dash.html.Li(children=["Biostatistics, Doctor of Philosophy (PhD)"])
+                                                      ])
+                               ])
+    ])
+
+    ],
     style={"margin-top":"2%",
            "margin-bottom":"2%",
            "margin-left": "2%",

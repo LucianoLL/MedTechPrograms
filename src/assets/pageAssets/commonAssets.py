@@ -8,11 +8,13 @@ import pandas as pd
 import dash_bootstrap_components as dbc
 
 siteFooter = dbc.Row(children=[
-        dash.html.Center(style={"color":"#000000",
-                                "margin-bottom":"2%",
-                                "margin-top":"2%"})],
+        dash.html.Center(children=["Updated as of 3/20/2025"],
+                         style={"color":"#000000",
+                                "margin-bottom":"1%",
+                                "margin-top":"1%"})],
     style={"background-color":"#0087D5",
-           "margin":"auto"}
+           "margin":"auto",
+           "margin-top":"2%"}
 )
 
 disclaimerFooter = dbc.Row(children=[
@@ -35,7 +37,7 @@ disclaimerFooter = dbc.Row(children=[
                              style={"color":"#000000"})],
 
             style={"margin-top":"1%",
-                   "margin-bottom":"2%",
+                   "margin-bottom":"5%",
                    "margin-right":"15%",
                    "margin-left":"15%",
                    })]
