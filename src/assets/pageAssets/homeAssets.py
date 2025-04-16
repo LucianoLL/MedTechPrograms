@@ -6,6 +6,8 @@ Date: 1/20/2025
 
 import dash
 import dash_bootstrap_components as dbc
+import assets.pageAssets.commonAssets as ca
+
 
 headerTitle = dbc.Row(children=[
     dbc.Col(children=[
@@ -18,14 +20,7 @@ headerTitle = dbc.Row(children=[
     style={"background-color":"#68BAEC",
            "margin":"auto"}
 )
-"""
-... to showcase and announce
-       the variety of programs and majors that combine both medical and engineering fields. It 
-       can be difficult to find work and programs that can blend both fields, difficult but not
-       impossible. That's why this website was created, not only to inform the general public
-       that such programs exist, but that two fields that can be perceived as exclusively separate 
-       can in fact coexist.
-"""
+
 introText = dash.html.P(children=[
     dash.html.B(children=["""MedTech Programs """]),
     """
@@ -34,10 +29,7 @@ introText = dash.html.P(children=[
     database of programs and institutions, you can search programs via 
     institution, or search institutions via programs.
     """],
-    style={"margin-top":"2%",
-           "margin-bottom":"2%",
-           "margin-left":"2%",
-           "margin-right":"2%"})
+    style=ca.basicTextMargins01)
 
 aboutText = dash.html.P(children=[
     """
@@ -54,26 +46,23 @@ aboutText = dash.html.P(children=[
     field. Medicine and engineering don't have to be exclusively separate, nor should 
     they be.
     """],
-    style={"margin-top":"2%",
-           "margin-bottom":"2%",
-           "margin-left": "2%",
-           "margin-right": "2%"})
+    style=ca.basicTextMargins01)
 
 updateText = dash.html.P(children=[
-    dash.html.H2(children=["3/17/2025"]),
+    dash.html.H2(children=["4/16/2025"]),
     """
     Updated the database; updated the open status for the following programs who have closed their application portals:
     """,
     dash.html.Ul(children=[
-        dash.html.Li(children=["University of California, Davis",
-                               dash.html.Ul(children=[dash.html.Li(children=["Biostatistics, Master of Science (MS)"]),
-                                                      dash.html.Li(children=["Biostatistics, Doctor of Philosophy (PhD)"])
+        dash.html.Li(children=["University of California, Los Angeles",
+                               dash.html.Ul(children=[dash.html.Li(children=["Bioinformatics, Master of Science (MS)"])
                                                       ])
                                ])
-    ])
+    ]),
+    """
+    Also included a new message for the empty the dataframes since all known applications are currently closed, at least 
+    those mentioned on the site. 
+    """
 
     ],
-    style={"margin-top":"2%",
-           "margin-bottom":"2%",
-           "margin-left": "2%",
-           "margin-right": "2%"})
+    style=ca.basicTextMargins01)

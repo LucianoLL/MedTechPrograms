@@ -7,11 +7,21 @@ import dash
 import pandas as pd
 import dash_bootstrap_components as dbc
 
+
+""" Common Images """
+
+""" Universal CSS """
+basicTextMargins01 = {"margin-top": "2%",
+                      "margin-bottom": "2%",
+                      "margin-left": "2%",
+                      "margin-right": "2%"}
+
+""" Common Text """
 siteFooter = dbc.Row(children=[
-        dash.html.Center(children=["Updated as of 3/20/2025"],
-                         style={"color":"#000000",
-                                "margin-bottom":"1%",
-                                "margin-top":"1%"})],
+        dash.html.Center(children=["Updated as of 4/16/2025"],
+                         style={"color": "#000000",
+                                "margin-bottom": "1%",
+                                "margin-top": "1%"})],
     style={"background-color":"#0087D5",
            "margin":"auto",
            "margin-top":"2%"}
@@ -46,6 +56,21 @@ disclaimerFooter = dbc.Row(children=[
            "margin":"auto"}
 )
 
+allAppsClosed = dbc.Row(children=[
+    dbc.Col(children=[
+        dash.html.P(children=[
+            """
+            All applications for Fall 2025 are currently closed, at least for the programs mentioned on this site.
+            Please check back throughout the year to see if any institutions or programs have opened their applications
+            for next year. You can also take a look at each institution website, or contact their own admissions office 
+            to see when applications open up again.
+            """,
+        ])
+    ]),
+    dbc.Col(children=[])
+])
+
+""" Common Functions """
 def clickableLinkFcn(tmpURL):
     return dash.html.A(children=[tmpURL],
                        target="_blank",
