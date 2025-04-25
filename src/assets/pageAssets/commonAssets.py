@@ -9,6 +9,8 @@ import dash_bootstrap_components as dbc
 
 
 """ Common Images """
+img01 = dash.html.Img(src="assets/closedAppsImg.png",
+                      width="50%")
 
 """ Universal CSS """
 basicTextMargins01 = {"margin-top": "2%",
@@ -56,19 +58,21 @@ disclaimerFooter = dbc.Row(children=[
            "margin":"auto"}
 )
 
-allAppsClosed = dbc.Row(children=[
-    dbc.Col(children=[
-        dash.html.P(children=[
-            """
-            All applications for Fall 2025 are currently closed, at least for the programs mentioned on this site.
-            Please check back throughout the year to see if any institutions or programs have opened their applications
-            for next year. You can also take a look at each institution website, or contact their own admissions office 
-            to see when applications open up again.
-            """,
-        ])
-    ]),
-    dbc.Col(children=[])
-])
+closedAppText = dash.html.P(children=[
+    dash.html.H1(children=[
+        dash.html.B(children="All Applications Are Currently Closed")],
+        style={"text-align": "center"}
+    ),
+    """
+    All applications for Fall of 2025 are currently closed, at least for the programs referenced on this site.
+    Please check throughout the year to see if any institutions or programs have opened their applications
+    for Fall of next year. You can also take a look at each institution's website, or contact their own admissions 
+    office to see when applications open up again.
+    """],
+    style={"text-align":" center",
+           "fontSize": "150%"}
+)
+
 
 """ Common Functions """
 def clickableLinkFcn(tmpURL):
