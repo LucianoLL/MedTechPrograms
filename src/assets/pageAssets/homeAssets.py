@@ -57,16 +57,15 @@ updateText = dash.html.Div(children=[
         """
     ]),
     dash.html.Ul(children=[
-        dash.html.Li(children=["University of California, Los Angeles",
-                               dash.html.Ul(children=[dash.html.Li(children=["Bioinformatics, Master of Science (MS)"])
+        dash.html.Li(children=["University of California, Davis",
+                               dash.html.Ul(children=[
+                                   dash.html.Li(children=[
+                                       "Biostatistics, Master of Science (MS)"]),
+                                   dash.html.Li(children=[
+                                       "Biostatistics, Doctor of Philosophy (PhD)"])
                                                       ])
                                ])
     ]),
-    dash.html.P(children=[
-        """
-        Also included a new message for the empty the dataframes since all known applications are currently closed, at 
-        least those mentioned on the site. 
-        """]),
     dash.html.P(children=[
         """
         There's also a new feature when clicking the "OPEN STATUS ONLY" filter. Since most applications are now closed,
