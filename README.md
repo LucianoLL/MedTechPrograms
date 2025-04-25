@@ -1,12 +1,14 @@
 # MedTechPrograms
 
-## Update: 3/20/2025
+## Update: 4/25/2025
 Updated the database, updated the open status for the following programs who have closed their application portals:
 - University of California, Davis
     - Biostatistics, Master of Science (MS) 
     - Biostatistics, Doctor of Philosophy (PhD)
 
-Also worked on the margins of the footer to fill the entire page when items are collapsed.
+Finally created a special footer/message when applying the filter since all applications are currently know to be
+closed. Also removed some files and moved their contents to their appropriate pages, just clears up some
+clutter for file management.
 
 Link to the site:
 
