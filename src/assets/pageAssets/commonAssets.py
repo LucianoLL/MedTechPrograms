@@ -20,7 +20,7 @@ basicTextMargins01 = {"margin-top": "2%",
 
 """ Common Text """
 siteFooter = dbc.Row(children=[
-        dash.html.Center(children=["Updated as of 4/16/2025"],
+        dash.html.Center(children=["Updated as of 4/25/2025"],
                          style={"color": "#000000",
                                 "margin-bottom": "1%",
                                 "margin-top": "1%"})],

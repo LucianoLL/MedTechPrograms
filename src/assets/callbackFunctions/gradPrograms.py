@@ -13,7 +13,7 @@ def gradProgramsFilters(app):
         dash.Output(component_id="accord-01", component_property="children"),
         dash.Output(component_id="toggle-01", component_property="style"),
         dash.Output(component_id="toggle-01", component_property="children"),
-        dash.Output(component_id="row-01", component_property="children"),
+        dash.Output(component_id="div-01", component_property="children"),
         dash.Input(component_id="toggle-01", component_property="n_clicks")
     )
     def openAppFilter(toggle):

@@ -50,7 +50,7 @@ programAccordian = dash.html.Div(children=[
 ])
 
 closedAppMsg = dash.html.Center(children=[
-    dash.html.Div(id="row-01",
+    dash.html.Div(id="div-01",
                   style=ca.basicTextMargins01)])
 
 

@@ -48,21 +48,30 @@ aboutText = dash.html.P(children=[
     """],
     style=ca.basicTextMargins01)
 
-updateText = dash.html.P(children=[
-    dash.html.H2(children=["4/16/2025"]),
-    """
-    Updated the database; updated the open status for the following programs who have closed their application portals:
-    """,
+updateText = dash.html.Div(children=[
+    dash.html.H2(children=["4/25/2025"]),
+    dash.html.P(children=[
+        """
+        Updated the database; updated the open status for the following programs who have closed their application 
+        portals:
+        """
+    ]),
     dash.html.Ul(children=[
         dash.html.Li(children=["University of California, Los Angeles",
                                dash.html.Ul(children=[dash.html.Li(children=["Bioinformatics, Master of Science (MS)"])
                                                       ])
                                ])
     ]),
-    """
-    Also included a new message for the empty the dataframes since all known applications are currently closed, at least 
-    those mentioned on the site. 
-    """
-
-    ],
+    dash.html.P(children=[
+        """
+        Also included a new message for the empty the dataframes since all known applications are currently closed, at 
+        least those mentioned on the site. 
+        """]),
+    dash.html.P(children=[
+        """
+        There's also a new feature when clicking the "OPEN STATUS ONLY" filter. Since most applications are now closed,
+        and the filter will now display an empty page, a message will take that place describing the current situation.
+        """
+    ])],
     style=ca.basicTextMargins01)
+
